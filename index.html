@@ -78,10 +78,11 @@
     var hour=t.getHours();
     var minute=t.getMinutes();
     if(minute<10){
-    var showdate="0" + month + "月" + day+"日 ";
-    var showtime=hour+":0"+minute; }
-    else{var var showdate="0" + month + "月" + day+"日 ";
-    var showtime=hour+":"+minute; }
+    		var showdate="0" + month + "月" + day+"日 ";
+    		var showtime=hour+":0"+minute; }
+    else{
+	   	var showdate="0" + month + "月" + day+"日 ";
+   	  	var showtime=hour+":"+minute; }
     document.write(showdate);
 	    <br />
     document.write(showtime);
