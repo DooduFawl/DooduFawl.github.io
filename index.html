@@ -65,8 +65,8 @@
     var hour=t.getHours();
     var minute=t.getMinutes();
     if(minute<10){
-    var showtime=month + "月" + day+"日 "+ hour+":0"+minute;}
-    else{var showtime=month + "月" + day+"日 "+hour+":"+minute;}
+    var showtime="0" + month + "月" + day+"日 "+ hour+":0"+minute;}
+    else{var showtime="0" + month + "月" + day+"日 "+hour+":"+minute;}
     document.write(showtime);
     </script></span></div>
 </body>
